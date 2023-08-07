@@ -1,0 +1,27 @@
+.languageName {
+    color: var(--main-text-color);
+    text-align: right;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.languageName:hover {
+    opacity: .5;
+    transition: .5s;
+}
+
+.selected {
+    border-bottom: solid 2px #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .languageName {
+        font-size: 24px;
+    }
+}

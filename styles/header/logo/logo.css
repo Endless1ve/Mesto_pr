@@ -1,0 +1,10 @@
+.logo {
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        width: 176px;
+    }
+}
