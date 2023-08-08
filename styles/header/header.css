@@ -4,8 +4,11 @@
 .header {
     display: flex;
     flex-direction: row;
-    align-self: stretch;
+    align-self: center;
     justify-content: space-between;
     align-items: flex-end;
     padding: 16px;
+    max-width: 984px;
+    width: 100%;
+    box-sizing: border-box;
 }
