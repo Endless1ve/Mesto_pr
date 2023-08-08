@@ -7,3 +7,16 @@
     flex-direction: column;
     margin-top: 48px;
 }
+
+@media screen and (min-width: 1024px) {
+    .travel {
+        max-width: 928px;
+        margin: 48px auto 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .travel {
+        max-width: 984px;
+    }
+}
