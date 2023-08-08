@@ -17,3 +17,9 @@
         max-width: 928px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .travelContent {
+        margin-top: 64px;
+    }
+}
