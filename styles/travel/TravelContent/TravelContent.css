@@ -1,0 +1,19 @@
+@import url('./travelImage/travelImage.css');
+@import url('./travelText/travelText.css');
+
+.travelContent {
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .travelContent {
+        margin-top: 56px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .travelContent {
+        align-self: center;
+        max-width: 928px;
+    }
+}

@@ -1,0 +1,9 @@
+@import url('./travelTitle/travelTitle.css');
+@import url('./travelSubtitle/travelSubtitle.css');
+@import url('./TravelContent/TravelContent.css');
+
+.travel {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+}
