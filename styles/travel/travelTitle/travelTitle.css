@@ -13,8 +13,6 @@
 @media screen and (min-width: 768px) {
     .travelTitle {
         font-size: 96px;
-        line-height: 100px;
-        padding: 0 24px;
-        
+        line-height: 100px;        
     }
 }
