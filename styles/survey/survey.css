@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 64px;
+    max-width: 984px;
 }
 
 @media screen and (min-width: 768px) {
@@ -15,14 +16,7 @@
 
 @media screen and (min-width: 1024px) {
     .survey {
-        max-width: 928px;
         align-items: flex-start;
         margin-top: 92px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .survey {
-        max-width: 984px;
     }
 }
