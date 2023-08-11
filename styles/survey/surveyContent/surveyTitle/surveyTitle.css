@@ -6,5 +6,12 @@
     line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+    .surveyTitle {
+        font-size: 54px;
+        line-height: 58px;
+    }
 
 }
