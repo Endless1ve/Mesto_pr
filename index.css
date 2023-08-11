@@ -2,6 +2,7 @@
 @import url('./styles/header/header.css');
 @import url('./styles/travel/travel.css');
 @import url('./styles/survey/survey.css');
+@import url('./styles/photos/photos.css');
 
 @font-face {
     font-family: Inter;
