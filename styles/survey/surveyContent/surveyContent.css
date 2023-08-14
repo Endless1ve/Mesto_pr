@@ -1,6 +1,7 @@
 @import url('./surveyTitle/surveyTitle.css');
 @import url('./surveyText/surveyText.css');
 @import url('./surveyFacts/surveyFacts.css');
+
 .surveyContent {
     padding: 0 16px;
 }
