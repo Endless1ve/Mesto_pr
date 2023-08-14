@@ -1,6 +1,7 @@
 @import url('./styles/global.css');
 @import url('./styles/header/header.css');
 @import url('./styles/travel/travel.css');
+@import url('./styles/survey/survey.css');
 
 @font-face {
     font-family: Inter;
@@ -19,5 +20,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.boldWords {
+    font-weight: bold;
 }
 

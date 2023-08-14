@@ -1,0 +1,15 @@
+.surveyTitle {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    color: var(--main-text-color);
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+}
+
+@media screen and (min-width: 768px) {
+    .surveyTitle {
+        font-size: 54px;
+        line-height: 58px;
+    }
+
+}
