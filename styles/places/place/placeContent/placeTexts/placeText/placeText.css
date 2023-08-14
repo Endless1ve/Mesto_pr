@@ -1,0 +1,15 @@
+.placeText {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    color: var(--main-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+@media screen and (min-width: 1024px) {
+    .placeText {
+        font-size: 18px;
+        line-height: 29px;
+    }
+}

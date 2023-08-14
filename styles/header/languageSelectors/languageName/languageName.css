@@ -16,10 +16,6 @@
     transition: .5s;
 }
 
-.selected {
-    border-bottom: solid 2px #fff;
-}
-
 @media screen and (min-width: 768px) {
     .languageName {
         font-size: 24px;

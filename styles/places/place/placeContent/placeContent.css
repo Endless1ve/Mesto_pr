@@ -1,0 +1,20 @@
+@import url('./placeImage/placeImage.css');
+@import url('./placeTexts/placeTexts.css');
+
+.placeContent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .placeContent {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .placeContent {
+        grid-gap: 40px;
+    }
+}

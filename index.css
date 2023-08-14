@@ -3,6 +3,7 @@
 @import url('./styles/travel/travel.css');
 @import url('./styles/survey/survey.css');
 @import url('./styles/photos/photos.css');
+@import url('./styles/places/places.css');
 
 @font-face {
     font-family: Inter;
@@ -25,5 +26,9 @@ body {
 
 .boldWords {
     font-weight: bold;
+}
+
+.underline {
+    border-bottom: solid 2px #fff;
 }
 
