@@ -4,6 +4,7 @@
 @import url('./styles/survey/survey.css');
 @import url('./styles/photos/photos.css');
 @import url('./styles/places/places.css');
+@import url('./styles/baikal/baikal.css');
 
 @font-face {
     font-family: Inter;
