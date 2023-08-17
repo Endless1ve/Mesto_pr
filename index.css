@@ -28,7 +28,7 @@ body {
     font-weight: bold;
 }
 
-.underline {
+.selected {
     border-bottom: solid 2px #fff;
 }
 
