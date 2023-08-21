@@ -1,5 +1,4 @@
-@import url('./placeHeading/placeHeading.css');
-@import url('./placeContent/placeContent.css');
+@import url('./placeContentLayout/placeContentLayout.css');
 
 .place {
     margin-bottom: 50px;

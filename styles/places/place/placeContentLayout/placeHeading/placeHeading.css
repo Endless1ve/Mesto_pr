@@ -2,9 +2,6 @@
 @import url('./placeUrl/placeUrl.css');
 
 .placeHeading {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 32px;
     padding: 0 16px;
     margin-bottom: 32px;
     align-items: end;
@@ -12,14 +9,7 @@
 
 @media screen and (min-width: 768px) {
     .placeHeading {
-        grid-template-columns: repeat(2, 1fr);
         padding: 0;
         margin-bottom: 48px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .placeHeading {
-        grid-gap: 40px;
     }
 }
