@@ -33,8 +33,3 @@ body {
     border-bottom: solid 2px #fff;
 }
 
-.baikalImage {
-    object-fit: contain;
-    width: 100%;
-}
-
