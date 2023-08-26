@@ -22,6 +22,12 @@
 @media screen and (min-width: 1024px) {
     .footer {
         margin-top: 92px;
+        padding: 0 48px 24px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
         padding: 0 0 24px;
     }
 }
