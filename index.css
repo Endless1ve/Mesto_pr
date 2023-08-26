@@ -5,6 +5,7 @@
 @import url('./styles/photos/photos.css');
 @import url('./styles/places/places.css');
 @import url('./styles/baikal/baikal.css');
+@import url('./styles/footer/footer.css');
 
 @font-face {
     font-family: Inter;
@@ -32,4 +33,7 @@ body {
 .selected {
     border-bottom: solid 2px #fff;
 }
+
+
+/* при полной проверке проекта обратить внимание на лишний класс link в блоке places*/
 
