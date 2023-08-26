@@ -4,6 +4,7 @@
 @import url('./styles/survey/survey.css');
 @import url('./styles/photos/photos.css');
 @import url('./styles/places/places.css');
+@import url('./styles/baikal/baikal.css');
 
 @font-face {
     font-family: Inter;
@@ -12,7 +13,6 @@
 
 body {
     max-width: 100vw;
-    height: 100vh;
     background-color: rgba(42, 44, 47, 1);
 }
 

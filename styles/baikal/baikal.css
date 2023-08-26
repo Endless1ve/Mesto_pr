@@ -1,0 +1,11 @@
+@import url('./baikalLink/baikalLink.css');
+
+.baikal {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1280px;
+    max-height: 740px;
+}
+
