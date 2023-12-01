@@ -1,0 +1,17 @@
+@import url('./travelTitle/travelTitle.css');
+@import url('./travelSubtitle/travelSubtitle.css');
+@import url('./TravelContent/TravelContent.css');
+
+.travel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    max-width: 984px;
+}
+
+@media screen and (min-width: 1280px) {
+    .travel {
+        margin-top: 56px;
+    }
+}

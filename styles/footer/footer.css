@@ -1,0 +1,33 @@
+@import url('./menu/menu.css');
+@import url('./footerCopy/footerCopy.css');
+
+.footer {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1280px;
+    margin: 64px 0 0;
+    padding: 0 16px 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 640px) {
+    .footer {
+        padding: 0 24px 24px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        margin-top: 92px;
+        padding: 0 48px 24px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        padding: 0 0 24px;
+    }
+}
