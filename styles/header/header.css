@@ -1,0 +1,26 @@
+@import url('./logo/logo.css');
+@import url('./languageSelectors/languageSelectors.css');
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 16px;
+    max-width: 1280px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding: 28px 24px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        padding: 28px 48px 0;
+    }
+}

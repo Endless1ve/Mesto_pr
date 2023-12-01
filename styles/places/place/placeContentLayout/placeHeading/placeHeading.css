@@ -1,0 +1,15 @@
+@import url('./placeTitle/placeTitle.css');
+@import url('./placeUrl/placeUrl.css');
+
+.placeHeading {
+    padding: 0 16px;
+    margin-bottom: 32px;
+    align-items: end;
+}
+
+@media screen and (min-width: 768px) {
+    .placeHeading {
+        padding: 0;
+        margin-bottom: 48px;
+    }
+}
